@@ -1,0 +1,506 @@
+/***********************************************Partie 1 de la navbar*********************************************/
+*{
+    margin:0%;
+    padding:0;
+    text-decoration: none;
+    box-sizing:border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(72, 226, 92);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.first img{
+    width:100px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.first{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex span,
+i{
+    color: white;
+}
+.logo{
+    flex: 0.18;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.map{
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.map i{
+    margin-top: 17px;
+    padding-left: 5px;
+    font-size: 17px;
+}
+.map div{
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+}
+.map div span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+}
+.map div span{
+    font-weight: bold;
+}
+.right{
+    justify-content: space-between;
+    flex:0.29;
+    margin-right: 10px;
+    align-items: center;
+}
+.input{
+    width: 100%;
+    background-color: white;
+    flex:0,53;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    overflow:hidden;
+    justify-content: space-between;
+}
+.input input{
+    outline: none;
+    width: 80%;
+    font-size: 16px;
+    padding: 10px 2px;
+    border: none;
+}
+.input .fa-search{
+    color:rgb(245, 190, 88);
+    padding:10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(231, 63, 181);
+    border-radius: 0 5px 5px 0;
+}
+.input div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right:1px solid grey ;
+    background-color: aliceblue;
+    padding: 6px 0;
+}
+
+.input div span{
+    border-radius: 5px 0 0 5px;
+    color:rgb(51,51,51);
+    padding:6px 5px;
+    font-size:13px;
+    cursor:pointer;
+}
+.input .fa-caret-down{
+    color:rgb(51,51,51);
+    cursor: pointer;
+    padding: 5px;
+}
+.lang i{
+    padding: 0s;
+    margin: 0;
+    color: grey;
+}
+.lang{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.right img{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    margin: 0;
+    padding-top: 11px;
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.sign span:first-child{
+    font-weight: 400;
+    font-size: 13px;
+}
+.sign span{
+    display: inline-block;
+    width:100%;
+    font-weight: bold;
+}
+.flex .ac span{
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.fa-shopping-cart{
+    font-size: 30px;
+}
+.ca{
+    font-size: 14px;
+    font-weight: bold;
+}
+.cart{
+    align-items: flex-end;
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.cart p{
+    position: absolute;
+    font-weight: bolder;
+    color: black;
+    top:7px;
+    left:23px;
+}
+.cart:hover{
+    border:1px solid white;
+    border-radius: 3px;
+}
+
+.map:hover{
+    border:1px solid white;
+    border-radius: 3px;
+}
+.lang:hover{
+    border:1px solid white;
+    border-radius: 3px;
+}
+.sign:hover{
+    border:1px solid white;
+    border-radius: 3px;
+}
+.input .fa-search:hover{
+    background-color: orange;
+}
+.input div:hover{
+    background-color: rgb(264, 200, 202);
+    color: black;
+}
+/***********************************************Partie 2 de la navbar*********************************************/
+.seconde{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(72, 226, 92);
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    overflow: hidden;
+}
+.seconde ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.seconde span{
+    font-size: 10px;
+}
+.seconde-1 div{
+    font-size: 20px;
+    cursor:pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.seconde li{
+    padding: 5px 10px;
+    font-size:15px;
+    margin: 7px 0;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.seconde-1{
+    flex:0.06;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seconde-1 div{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.seconde-2{
+    display: flex;
+    flex: 0.76;
+    justify-content: flex-start;
+}
+
+.seconde-1 div span{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.seconde-1 div:hover{
+    border: 1px solid white;
+}
+.seconde-2 ul li:hover{
+    border: 1px solid white;
+}
+
+/************************************************partie 1 promotion **********************************************/
+.promotion{
+    position: relative;
+    width: 100%;
+    height:  1190px;
+    box-sizing: border-box;
+}
+.slide img{
+    width: 1360px;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container-1{
+    position: absolute;
+    z-index: 1;
+    top: 1300px;
+    left:0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, #ededed 30%);
+}
+.container-1 .para{
+    background-color: #ededed;
+    width: 100%;
+    text-align: center;
+}
+.container-1 div:first-child p {
+    font-size: 14px;
+    padding: 12px 0;
+}
+.product-comp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+.product-comp .box{
+    width: 315px;
+    height: 250px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+.box h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+.box a{
+    font-size: 13px;
+    margin-left: 20px;
+    display: flex;
+    padding-top: 30px;
+}
+.box div img{ 
+    width: 250px;
+    height: 120px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.box-1 div{
+    display: inline-block;
+}
+.box-1 div span{
+    display: block;
+    font-size: 12px;
+}
+
+/************************************************Partie formulaire et map *******************************************/
+
+.contact{
+    position: relative;
+    top: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    background-color: #ededed;
+    font-family: 'Poppins', sans-serif;
+}
+.form-contact {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+.map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.formulaire{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.formulaire h1{
+    margin-bottom: 10px;
+}
+.formulaire-text{
+    width: 100%;
+    height: 40px;
+    color:#000;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.formulaire-text::placeholder{
+    color: #666;
+}
+.formulaire-textarea{
+    width: 100%;
+    height: 140px;
+    color:#000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.formulaire-textarea::placeholder{
+    color: #666;
+}
+.formulaire-btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color:rgb(72, 226, 92);
+    color: #666;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+/***********************************************Page d'acceuil**********************************************/
+.p-acceuil{
+    padding-top: 100px;
+    padding-left: 50px;
+    height: 550px;
+    width: 100%;
+    background-image: url(media/img-accueil.jpg);
+}
+.accueil{
+    position:relative;
+    padding-top: 100px;
+    padding-left: 50px;
+    color: #666;
+
+    
+}
+.accueil p{
+    font-size: 20px;
+    margin-left:0px;
+}
+
+.accueil h1{
+    font-size: 50px;
+    margin-left: -10px;
+}
+.accueil h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-promo{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.btn-promo a {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    color:grey;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.btn-promo a:hover{
+    background-color: #bcbcbc;
+    color: #000;
+}
+/**************************************section promos**************************************************************/
+.promo h2{
+    text-align: center;
+    font-size: 20px;
+    color:gray;
+}
